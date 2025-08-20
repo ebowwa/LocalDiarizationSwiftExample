@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76FA90B62E5645D600A1BA18 /* FluidAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 76FA90B52E5645D600A1BA18 /* FluidAudio */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76FA90882E56408D00A1BA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76FA90722E56408A00A1BA18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76FA90792E56408A00A1BA18;
+			remoteInfo = LocalDiarizationTest;
+		};
+		76FA90922E56408D00A1BA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76FA90722E56408A00A1BA18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76FA90792E56408A00A1BA18;
+			remoteInfo = LocalDiarizationTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76FA907A2E56408A00A1BA18 /* LocalDiarizationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalDiarizationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FA90872E56408D00A1BA18 /* LocalDiarizationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalDiarizationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FA90912E56408D00A1BA18 /* LocalDiarizationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalDiarizationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		76FA907C2E56408A00A1BA18 /* LocalDiarizationTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LocalDiarizationTest;
+			sourceTree = "<group>";
+		};
+		76FA908A2E56408D00A1BA18 /* LocalDiarizationTestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LocalDiarizationTestTests;
+			sourceTree = "<group>";
+		};
+		76FA90942E56408D00A1BA18 /* LocalDiarizationTestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LocalDiarizationTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76FA90772E56408A00A1BA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FA90B62E5645D600A1BA18 /* FluidAudio in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FA90842E56408D00A1BA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FA908E2E56408D00A1BA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76FA90712E56408A00A1BA18 = {
+			isa = PBXGroup;
+			children = (
+				76FA907C2E56408A00A1BA18 /* LocalDiarizationTest */,
+				76FA908A2E56408D00A1BA18 /* LocalDiarizationTestTests */,
+				76FA90942E56408D00A1BA18 /* LocalDiarizationTestUITests */,
+				76FA907B2E56408A00A1BA18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76FA907B2E56408A00A1BA18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76FA907A2E56408A00A1BA18 /* LocalDiarizationTest.app */,
+				76FA90872E56408D00A1BA18 /* LocalDiarizationTestTests.xctest */,
+				76FA90912E56408D00A1BA18 /* LocalDiarizationTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76FA90792E56408A00A1BA18 /* LocalDiarizationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FA909B2E56408D00A1BA18 /* Build configuration list for PBXNativeTarget "LocalDiarizationTest" */;
+			buildPhases = (
+				76FA90762E56408A00A1BA18 /* Sources */,
+				76FA90772E56408A00A1BA18 /* Frameworks */,
+				76FA90782E56408A00A1BA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				76FA907C2E56408A00A1BA18 /* LocalDiarizationTest */,
+			);
+			name = LocalDiarizationTest;
+			packageProductDependencies = (
+				76FA90B52E5645D600A1BA18 /* FluidAudio */,
+			);
+			productName = LocalDiarizationTest;
+			productReference = 76FA907A2E56408A00A1BA18 /* LocalDiarizationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76FA90862E56408D00A1BA18 /* LocalDiarizationTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FA909E2E56408D00A1BA18 /* Build configuration list for PBXNativeTarget "LocalDiarizationTestTests" */;
+			buildPhases = (
+				76FA90832E56408D00A1BA18 /* Sources */,
+				76FA90842E56408D00A1BA18 /* Frameworks */,
+				76FA90852E56408D00A1BA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76FA90892E56408D00A1BA18 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				76FA908A2E56408D00A1BA18 /* LocalDiarizationTestTests */,
+			);
+			name = LocalDiarizationTestTests;
+			packageProductDependencies = (
+			);
+			productName = LocalDiarizationTestTests;
+			productReference = 76FA90872E56408D00A1BA18 /* LocalDiarizationTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76FA90902E56408D00A1BA18 /* LocalDiarizationTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FA90A12E56408D00A1BA18 /* Build configuration list for PBXNativeTarget "LocalDiarizationTestUITests" */;
+			buildPhases = (
+				76FA908D2E56408D00A1BA18 /* Sources */,
+				76FA908E2E56408D00A1BA18 /* Frameworks */,
+				76FA908F2E56408D00A1BA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76FA90932E56408D00A1BA18 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				76FA90942E56408D00A1BA18 /* LocalDiarizationTestUITests */,
+			);
+			name = LocalDiarizationTestUITests;
+			packageProductDependencies = (
+			);
+			productName = LocalDiarizationTestUITests;
+			productReference = 76FA90912E56408D00A1BA18 /* LocalDiarizationTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76FA90722E56408A00A1BA18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					76FA90792E56408A00A1BA18 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					76FA90862E56408D00A1BA18 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 76FA90792E56408A00A1BA18;
+					};
+					76FA90902E56408D00A1BA18 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 76FA90792E56408A00A1BA18;
+					};
+				};
+			};
+			buildConfigurationList = 76FA90752E56408A00A1BA18 /* Build configuration list for PBXProject "LocalDiarizationTest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76FA90712E56408A00A1BA18;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				76FA90B42E5645D600A1BA18 /* XCRemoteSwiftPackageReference "FluidAudio" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 76FA907B2E56408A00A1BA18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76FA90792E56408A00A1BA18 /* LocalDiarizationTest */,
+				76FA90862E56408D00A1BA18 /* LocalDiarizationTestTests */,
+				76FA90902E56408D00A1BA18 /* LocalDiarizationTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76FA90782E56408A00A1BA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FA90852E56408D00A1BA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FA908F2E56408D00A1BA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76FA90762E56408A00A1BA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FA90832E56408D00A1BA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FA908D2E56408D00A1BA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76FA90892E56408D00A1BA18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76FA90792E56408A00A1BA18 /* LocalDiarizationTest */;
+			targetProxy = 76FA90882E56408D00A1BA18 /* PBXContainerItemProxy */;
+		};
+		76FA90932E56408D00A1BA18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76FA90792E56408A00A1BA18 /* LocalDiarizationTest */;
+			targetProxy = 76FA90922E56408D00A1BA18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		76FA90992E56408D00A1BA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 42R8ZPM5N8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76FA909A2E56408D00A1BA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 42R8ZPM5N8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76FA909C2E56408D00A1BA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42R8ZPM5N8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access to record audio for speaker diarization";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ebowwa.LocalDiarizationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76FA909D2E56408D00A1BA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42R8ZPM5N8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access to record audio for speaker diarization";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ebowwa.LocalDiarizationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76FA909F2E56408D00A1BA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42R8ZPM5N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ebowwa.LocalDiarizationTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalDiarizationTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocalDiarizationTest";
+			};
+			name = Debug;
+		};
+		76FA90A02E56408D00A1BA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42R8ZPM5N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ebowwa.LocalDiarizationTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalDiarizationTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocalDiarizationTest";
+			};
+			name = Release;
+		};
+		76FA90A22E56408D00A1BA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42R8ZPM5N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ebowwa.LocalDiarizationTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocalDiarizationTest;
+			};
+			name = Debug;
+		};
+		76FA90A32E56408D00A1BA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42R8ZPM5N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ebowwa.LocalDiarizationTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocalDiarizationTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76FA90752E56408A00A1BA18 /* Build configuration list for PBXProject "LocalDiarizationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FA90992E56408D00A1BA18 /* Debug */,
+				76FA909A2E56408D00A1BA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FA909B2E56408D00A1BA18 /* Build configuration list for PBXNativeTarget "LocalDiarizationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FA909C2E56408D00A1BA18 /* Debug */,
+				76FA909D2E56408D00A1BA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FA909E2E56408D00A1BA18 /* Build configuration list for PBXNativeTarget "LocalDiarizationTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FA909F2E56408D00A1BA18 /* Debug */,
+				76FA90A02E56408D00A1BA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FA90A12E56408D00A1BA18 /* Build configuration list for PBXNativeTarget "LocalDiarizationTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FA90A22E56408D00A1BA18 /* Debug */,
+				76FA90A32E56408D00A1BA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		76FA90B42E5645D600A1BA18 /* XCRemoteSwiftPackageReference "FluidAudio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FluidInference/FluidAudio.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		76FA90B52E5645D600A1BA18 /* FluidAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76FA90B42E5645D600A1BA18 /* XCRemoteSwiftPackageReference "FluidAudio" */;
+			productName = FluidAudio;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 76FA90722E56408A00A1BA18 /* Project object */;
+}
